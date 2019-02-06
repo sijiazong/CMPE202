@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=GumballMachine
-comment1.params=size
-comment1.target=GumballMachine(int)
+comment1.params=size\ cost\ only_accept_quarter
+comment1.target=GumballMachine(int,\ int,\ boolean)
 comment2.params=coin
-comment2.target=void\ insertQuarter(int)
-comment3.params=
-comment3.target=void\ turnCrank()
-numComments=4
+comment2.target=void\ insertCoin(int)
+comment3.params=coin
+comment3.target=boolean\ isCoinValid(int)
+comment4.params=
+comment4.target=boolean\ enoughCoin()
+comment5.params=
+comment5.target=void\ turnCrank()
+numComments=6
