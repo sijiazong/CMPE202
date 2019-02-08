@@ -1,4 +1,9 @@
-
+/* CMPE 202 Lab 1 Part1
+ * Change Gumball Machine class to accomodate 3 models
+ * Adding Gumball Machine attribute cost and only_accept_quarter.
+ * Checking the value of inserted coin to check if it is accepted by the machine.
+ * @author (Sijia Zong) 
+ */
 public class GumballMachine
 {
 
@@ -9,9 +14,8 @@ public class GumballMachine
 
     public GumballMachine( int size, int cost, boolean only_accept_quarter)
     {
-        // initialise instance variables
+     // initialise instance variables
         this.num_gumballs = size;
-     //   this.has_quarter = false;
         this.cost = cost;
         this.total_coins = 0;
         this.only_accept_quarter = only_accept_quarter;

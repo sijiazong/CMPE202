@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=GumballMachine
+comment0.text=\ CMPE\ 202\ Lab\ 1\ Part1\n\ Change\ Gumball\ Machine\ class\ to\ accomodate\ 3\ models\n\ Adding\ Gumball\ Machine\ attribute\ cost\ and\ only_accept_quarter.\n\ Checking\ the\ value\ of\ inserted\ coin\ to\ check\ if\ it\ is\ accepted\ by\ the\ machine.\n\ @author\ (Sijia\ Zong)\ \n
 comment1.params=size\ cost\ only_accept_quarter
 comment1.target=GumballMachine(int,\ int,\ boolean)
 comment2.params=coin

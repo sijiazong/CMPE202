@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5fa2677-9011-4f27-b3bb-35686d704e2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../gumball-java-pattern/GumballMachine.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../gumball-java-pattern/GumballMachine.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gumball-java-pattern/HasQuarterState.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../gumball-java-pattern/HasQuarterState.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gumball-java-pattern/NoQuarterState.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../gumball-java-pattern/NoQuarterState.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gumball-java-pattern/SoldOutState.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../gumball-java-pattern/SoldOutState.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../gumball-java-pattern/SoldState.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/../gumball-java-pattern/SoldState.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gumball-java-pattern/HasQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gumball-java-pattern/HasQuarterState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gumball-java-pattern/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../gumball-java-pattern/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GumballMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/GumballMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GumballMachine.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/GumballMachine.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GumballMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/GumballMachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/Main.ctxt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/package.bluej" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="270">
+              <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GumballMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            <state relative-caret-position="60">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -61,7 +64,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,6 +75,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -103,24 +106,24 @@
       <updated>1549496281572</updated>
       <workItem from="1549496284875" duration="220000" />
       <workItem from="1549564000082" duration="87000" />
+      <workItem from="1549649415976" duration="24000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="307000" />
+    <option name="totallyTimeSpent" value="331000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="43" width="1400" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2569956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3294964" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -133,6 +136,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -155,17 +159,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GumballMachine.java">
+    <entry file="file://$PROJECT_DIR$/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="270">
+          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.java">
+    <entry file="file://$PROJECT_DIR$/GumballMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>
