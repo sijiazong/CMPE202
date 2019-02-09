@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c9b088d-7868-41b5-8906-731a610cd7cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/GumballMachine.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GumballMachine.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/GumballMachine.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GumballMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/GumballMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HasQuarterState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HasQuarterState.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HasQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/EnoughCoinState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoQuarterState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoQuarterState.ctxt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NoQuarterState.java" beforeDir="false" afterPath="$PROJECT_DIR$/NotEnoughCoinState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoldOutState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoldOutState.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/SoldOutState.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoldOutState.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoldOutState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoldState.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoldState.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/SoldState.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoldState.java" beforeDir="false" afterPath="$PROJECT_DIR$/SoldState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/State.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/State.ctxt" beforeDir="false" afterPath="$PROJECT_DIR$/State.ctxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gumball.asta" beforeDir="false" afterPath="$PROJECT_DIR$/gumball.asta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gumball.asta.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gumball-java-pattern/EnoughCoinState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gumball-java-pattern/GumballMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gumball-java-pattern/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gumball-java-pattern/NotEnoughCoinState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gumball-java-pattern/SoldOutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gumball-java-pattern/SoldState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/gumball-java-pattern/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gumball-java-typical/GumballMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gumball-java-typical/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gumball-java-typical/out/production/gumball-java-typical/GumballMachine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gumball-java-typical/out/production/gumball-java-typical/Main.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +27,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoldOutState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="255">
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="e#221#222#0" expanded="true" />
                 <element signature="e#301#302#0" expanded="true" />
@@ -52,17 +42,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SoldState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="90">
+              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EnoughCoinState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+            <state relative-caret-position="122">
+              <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
               <folding>
                 <element signature="e#237#238#0" expanded="true" />
                 <element signature="e#307#308#0" expanded="true" />
@@ -74,13 +64,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/NotEnoughCoinState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="167">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
+                <element signature="e#910#911#0" expanded="true" />
+                <element signature="e#988#989#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,27 +78,19 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GumballMachine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="811">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#1033#1034#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-                <element signature="e#1261#1262#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-                <element signature="e#1334#1335#0" expanded="true" />
-                <element signature="e#1361#1362#0" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
-                <element signature="e#1449#1450#0" expanded="true" />
-                <element signature="e#1487#1488#0" expanded="true" />
-                <element signature="e#1522#1523#0" expanded="true" />
-                <element signature="e#1566#1567#0" expanded="true" />
-                <element signature="e#1607#1608#0" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
-                <element signature="e#1686#1687#0" expanded="true" />
-                <element signature="e#1721#1722#0" expanded="true" />
-                <element signature="e#1753#1754#0" expanded="true" />
+                <element signature="e#0#3244#0" expanded="true" />
+                <element signature="e#1294#1295#0" expanded="true" />
+                <element signature="e#1514#1515#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+                <element signature="e#1722#1723#0" expanded="true" />
+                <element signature="e#1795#1796#0" expanded="true" />
+                <element signature="e#1880#1881#0" expanded="true" />
+                <element signature="e#1959#1960#0" expanded="true" />
+                <element signature="e#2026#2027#0" expanded="true" />
+                <element signature="method#isCoinValid#0;class#GumballMachine#0" />
               </folding>
             </state>
           </provider>
@@ -124,11 +105,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state>
+              <caret selection-end-line="3" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#1888#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,22 +133,23 @@
         <option value="$PROJECT_DIR$/NoQuarterState.java" />
         <option value="$PROJECT_DIR$/HasQuarterState.java" />
         <option value="$PROJECT_DIR$/State.java" />
+        <option value="$PROJECT_DIR$/EnoughCoinState.java" />
+        <option value="$PROJECT_DIR$/NotEnoughCoinState.java" />
+        <option value="$PROJECT_DIR$/SoldOutState.java" />
         <option value="$PROJECT_DIR$/Main.java" />
         <option value="$PROJECT_DIR$/GumballMachine.java" />
-        <option value="$PROJECT_DIR$/NotEnoughCoinState.java" />
-        <option value="$PROJECT_DIR$/EnoughCoinState.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="43" />
+    <option name="x" value="11" />
+    <option name="y" value="45" />
     <option name="width" value="1400" />
     <option name="height" value="787" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="PackagesPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -180,13 +165,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gumball-java-pattern" type="58d84e3e:PackageViewProjectNode" />
+              <item name="gumball-java-pattern" type="616d4139:PackageViewModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549669253118" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549676035123" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -229,15 +224,15 @@
       <workItem from="1549664941642" duration="91000" />
       <workItem from="1549665050838" duration="14000" />
       <workItem from="1549665084120" duration="27000" />
-      <workItem from="1549665202903" duration="4192000" />
+      <workItem from="1549665202903" duration="9943000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6798000" />
+    <option name="totallyTimeSpent" value="12549000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="43" width="1400" height="787" extended-state="0" />
+    <frame x="11" y="45" width="1400" height="787" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27540502" />
@@ -262,7 +257,7 @@
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3294964" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" show_stripe_button="false" weight="0.2496318" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info anchor="right" id="Maven" order="5" />
@@ -293,10 +288,71 @@
     <entry file="file://$PROJECT_DIR$/NoQuarterState.ctxt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="147">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/GumballMachine">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>GumballMachine</OriginalElement>
+          <nodes>
+            <node x="" y="">GumballMachine</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="74.5" y="14.5" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GumballMachine.ctxt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NotEnoughCoinState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="e#910#911#0" expanded="true" />
+            <element signature="e#988#989#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EnoughCoinState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
+          <folding>
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SoldOutState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding>
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -307,73 +363,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SoldOutState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GumballMachine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#1033#1034#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1334#1335#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1487#1488#0" expanded="true" />
-            <element signature="e#1522#1523#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1686#1687#0" expanded="true" />
-            <element signature="e#1721#1722#0" expanded="true" />
-            <element signature="e#1753#1754#0" expanded="true" />
+            <element signature="e#0#3244#0" expanded="true" />
+            <element signature="e#1294#1295#0" expanded="true" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+            <element signature="e#1722#1723#0" expanded="true" />
+            <element signature="e#1795#1796#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#1959#1960#0" expanded="true" />
+            <element signature="e#2026#2027#0" expanded="true" />
+            <element signature="method#isCoinValid#0;class#GumballMachine#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SoldState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="90">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NotEnoughCoinState.java">
+    <entry file="file://$PROJECT_DIR$/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
+          <caret selection-end-line="3" selection-end-column="3" />
           <folding>
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#859#860#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EnoughCoinState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="57" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
-          <folding>
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#0#1888#0" expanded="true" />
           </folding>
         </state>
       </provider>

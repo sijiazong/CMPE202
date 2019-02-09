@@ -2,8 +2,8 @@
 comment0.target=NotEnoughCoinState
 comment1.params=gumballMachine
 comment1.target=NotEnoughCoinState(GumballMachine)
-comment2.params=
-comment2.target=void\ insertCoin()
+comment2.params=coin
+comment2.target=void\ insertCoin(int)
 comment3.params=
 comment3.target=void\ ejectCoin()
 comment4.params=
