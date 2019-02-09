@@ -1,22 +1,63 @@
-
+/* CMPE 202 Lab 1 Part1
+ * Test 3 models for Lab 1 Part 2
+ * @author (Sijia Zong)
+ */
 
 public class Main {
 
 	public static void main(String[] args) {
-		GumballMachine gumballMachine = new GumballMachine(5);
+		//test Gumball Machine 1, 5 gumball, 25 cents cost, only accept Quarters.
+		GumballMachine gumballMachine1 = new GumballMachine(5,25,true);
 
-		System.out.println(gumballMachine);
+		System.out.println("Testing gumball model 1 "+ gumballMachine1);
 
-		gumballMachine.insertQuarter();
-		gumballMachine.turnCrank();
+		//test invalid coin
+		gumballMachine1.insertCoin( 10 );
+		gumballMachine1.turnCrank();
 
-		System.out.println(gumballMachine);
+		//test valid coin
+		gumballMachine1.insertCoin( 25 );
+		gumballMachine1.turnCrank();
 
-		gumballMachine.insertQuarter();
-		gumballMachine.turnCrank();
-		gumballMachine.insertQuarter();
-		gumballMachine.turnCrank();
+		//test Gumball Machine 2, 5 gumball, 50 cents cost, only accept Quarters.
+		GumballMachine gumballMachine2 = new GumballMachine(5,50,true);
+		System.out.println("\nTesting gumball model 2 "+ gumballMachine2);
 
-		System.out.println(gumballMachine);
+		gumballMachine2.insertCoin( 25 );
+		gumballMachine2.turnCrank();
+		gumballMachine2.insertCoin( 25 );
+		gumballMachine2.turnCrank();
+
+		//test Gumball Machine 3, 5 gumball, 50 cents cost, accept all valid coins.
+		GumballMachine gumballMachine3 = new GumballMachine(2,50,false);
+
+		System.out.println("\nTesting gumball model 3 "+ gumballMachine3);
+
+		gumballMachine3.insertCoin( 10 );
+		gumballMachine3.turnCrank();
+		gumballMachine3.insertCoin( 10 );
+		gumballMachine3.insertCoin( 5 );
+		gumballMachine3.insertCoin( 25 );
+		gumballMachine3.turnCrank();
+		System.out.println(gumballMachine3);
+		gumballMachine3.insertCoin(10);
+		gumballMachine3.turnCrank();
+
+		System.out.println(gumballMachine3);
+
+		gumballMachine3.insertCoin(35);
+		gumballMachine3.turnCrank();
+		gumballMachine3.insertCoin(50);
+		gumballMachine3.ejectCoin();
+		gumballMachine3.insertCoin(25);
+		gumballMachine3.insertCoin(10);
+		gumballMachine3.insertCoin(10);
+		gumballMachine3.insertCoin(5);
+		gumballMachine3.turnCrank();
+		gumballMachine3.ejectCoin();
+		System.out.println(gumballMachine3);
+
+		gumballMachine3.refill(3);
+		System.out.println(gumballMachine3);
 	}
 }

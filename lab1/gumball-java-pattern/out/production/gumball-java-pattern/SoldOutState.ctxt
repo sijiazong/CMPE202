@@ -1,11 +1,11 @@
 #BlueJ class context
-comment0.target=NoQuarterState
+comment0.target=SoldOutState
 comment1.params=gumballMachine
-comment1.target=NoQuarterState(GumballMachine)
+comment1.target=SoldOutState(GumballMachine)
 comment2.params=
-comment2.target=void\ insertQuarter()
+comment2.target=void\ insertCoin()
 comment3.params=
-comment3.target=void\ ejectQuarter()
+comment3.target=void\ ejectCoin()
 comment4.params=
 comment4.target=void\ turnCrank()
 comment5.params=
