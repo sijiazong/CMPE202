@@ -16,7 +16,8 @@ ReservationManager
 Responsibilities:  
 Add Customer to Waitlist  
 Delete Customer from Waitlist  
-Notify Customer of when table is available  
+Confirm Customer Reservation(send message)
+Notify Customer when table is available(send message)
 Get Table Availability from Table Manager  
 Get next Customer in waitlist for available table  
 Assign Customer to table  
