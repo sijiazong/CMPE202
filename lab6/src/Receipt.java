@@ -35,8 +35,8 @@ public class Receipt implements PrintingStrategy {
             }
             System.out.println();
         }
-        System.out.println("Sub. Total:\t\t:" + order.getSubtotal());
-        System.out.println("Tax:\t\t:" + order.getTax());
-        System.out.println("Total:\t\t:" + order.getTotal());
+        System.out.println("Sub. Total:\t\t" + order.getSubtotal());
+        System.out.println("Tax:\t\t" + order.getTax());
+        System.out.println("Total:\t\t" + order.getTotal());
     }
 }

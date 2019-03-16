@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f40adb50-7836-434d-b375-ecbbdec9ef35" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Fries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fries.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OrderItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/PackingSlip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PackingSlip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/counter-burger/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/counter-burger/package.bluej" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/DemoRunOutput_Screenshot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Receipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Receipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Topping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Topping.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+            <state relative-caret-position="216">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -70,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Receipt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="58" />
+            <state relative-caret-position="196">
+              <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -140,19 +137,19 @@
         <option value="$PROJECT_DIR$/src/Topping.java" />
         <option value="$PROJECT_DIR$/src/PrintingStrategy.java" />
         <option value="$PROJECT_DIR$/src/Burger.java" />
-        <option value="$PROJECT_DIR$/src/Receipt.java" />
         <option value="$PROJECT_DIR$/src/Order.java" />
         <option value="$PROJECT_DIR$/src/PackingSlip.java" />
         <option value="$PROJECT_DIR$/src/OrderContext.java" />
         <option value="$PROJECT_DIR$/src/OrderContent.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Fries.java" />
+        <option value="$PROJECT_DIR$/src/Receipt.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="42" />
-    <option name="y" value="76" />
+    <option name="x" value="40" />
+    <option name="y" value="50" />
     <option name="width" value="1400" />
     <option name="height" value="787" />
   </component>
@@ -187,7 +184,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552750708895" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552765565762" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.google.cloud.tools.intellij.appengine.java.sdk.CloudSdkConfigurable" />
@@ -223,22 +220,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552695702182</updated>
-      <workItem from="1552695705285" duration="11165000" />
+      <workItem from="1552695705285" duration="11651000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11165000" />
+    <option name="totallyTimeSpent" value="11651000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="42" y="76" width="1400" height="787" extended-state="0" />
+    <frame x="40" y="50" width="1400" height="787" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -248,7 +246,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.95683455" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4446043" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -297,13 +295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Receipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/PackingSlip.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="287">
@@ -325,16 +316,6 @@
             <element signature="e#457#458#0" expanded="true" />
             <element signature="e#781#782#0" expanded="true" />
             <element signature="e#836#837#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OrderContent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -383,8 +364,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OrderContent.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Receipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="38" column="56" selection-start-line="38" selection-start-column="56" selection-end-line="38" selection-end-column="56" />
         </state>
       </provider>
     </entry>
