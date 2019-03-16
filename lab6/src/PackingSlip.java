@@ -3,7 +3,7 @@ import java.util.List;
 public class PackingSlip implements PrintingStrategy {
     public void printOrder(Order order) {
         System.out.println("Order Number " + order.getOrderNumber());
-        System.out.println(order.getDate() + "    " + order.getTime());
+        System.out.println(order.getDate() + " " + order.getTime());
         System.out.println("FIVE GUYS");
 
         for (OrderItem item : order.getItems()) {

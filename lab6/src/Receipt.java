@@ -8,12 +8,12 @@ public class Receipt implements PrintingStrategy {
                 "5353 ALMANDEN EXPY N60\n" +
                 "SAN JOSE, CA 95118\n" +
                 "(P) 408-264-9300\n");
-        System.out.println(order.getDate() + "    " + order.getTime());
+        System.out.println(order.getDate() + " " + order.getTime());
         System.out.println("FIVE GUYS");
         System.out.println("Order Number " + order.getOrderNumber());
 
         for (OrderItem item : order.getItems()) {
-            System.out.println(item.getQuantity() + "\t" + item.getDescription() + "\t\t" + item.getPrice());
+            System.out.println(item.getQuantity() + "\t" + item.getDescription() + "\t" + item.getPrice());
             if (item instanceof Burger) {
                 List<Topping> toppings = ((Burger) item).getToppings();
                 for (Topping t : toppings) {
@@ -35,7 +35,7 @@ public class Receipt implements PrintingStrategy {
             }
             System.out.println();
         }
-        System.out.println("Sub. Total:\t\t" + order.getSubtotal());
+        System.out.println("Sub.Total:\t" + order.getSubtotal());
         System.out.println("Tax:\t\t" + order.getTax());
         System.out.println("Total:\t\t" + order.getTotal());
     }
