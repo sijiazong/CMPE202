@@ -1,8 +1,8 @@
 # CMPE 202 - LAB #6 - Five Guys Burger Design Patterns
 
 **Design Pattern:**  
-Composite：For order item including custom burger, toppings and fries
-Strategy: Printing strategy for printing packing slip or receipt
+Composite：For order item including custom burger, toppings and fries.  
+Strategy: Printing strategy for printing packing slip or receipt.
 
 **Demo Run Output:**  
 Receipt:  

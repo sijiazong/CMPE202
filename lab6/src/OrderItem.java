@@ -1,7 +1,7 @@
 public interface OrderItem {
-    public String getDescription();
+    String getDescription();
 
-    public Integer getQuantity();
+    Integer getQuantity();
 
-    public Double getPrice();
+    Double getPrice();
 }

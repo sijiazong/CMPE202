@@ -19,11 +19,8 @@ public class Topping implements OrderItem {
         return null;
     }
 
-    ;
-
     public Double getPrice() {
         return null;
     }
 
-    ;
 }

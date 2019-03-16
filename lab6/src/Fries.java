@@ -18,6 +18,7 @@ public class Fries implements OrderItem {
         return price * quantity;
     }
 
+
     public String getDescription() {
         return description;
     }

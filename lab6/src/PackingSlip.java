@@ -18,7 +18,6 @@ public class PackingSlip implements PrintingStrategy {
                 for (Topping t : toppings) {
                     if (t.getPosition().equals("MIDDLE")) {
                         System.out.println("->|" + t.getDescription());
-                        ;
                     }
                 }
                 for (Topping t : toppings) {
@@ -27,7 +26,7 @@ public class PackingSlip implements PrintingStrategy {
                     }
                 }
             }
-            System.out.println("");
+            System.out.println();
         }
     }
 }
