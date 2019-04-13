@@ -1,6 +1,6 @@
 public class MergeSort implements SortingStrategy {
 
-    private void sort(int a[], int lo0, int hi0) throws Exception {
+    private void sort(int[] a, int lo0, int hi0) throws Exception {
         int lo = lo0;
         int hi = hi0;
 
@@ -32,7 +32,7 @@ public class MergeSort implements SortingStrategy {
                  */
                 int T = a[start_hi];
                 for (int k = start_hi - 1; k >= lo; k--) {
-                    a[k+1] = a[k];
+                    a[k + 1] = a[k];
                 }
                 a[lo] = T;
                 lo++;
@@ -42,7 +42,7 @@ public class MergeSort implements SortingStrategy {
         }
     }
 
-    public void sort(int a[])  throws Exception {
-        sort(a, 0, a.length-1);
+    public void sort(int[] a) throws Exception {
+        sort(a, 0, a.length - 1);
     }
 }

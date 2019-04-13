@@ -1,13 +1,12 @@
-public class Tester
-{
-    SortingStrategy bubbleSort = (int a[]) -> {
-        for (int i = a.length; --i>=0; ) {
+public class Tester {
+    SortingStrategy bubbleSort = (int[] a) -> {
+        for (int i = a.length; --i >= 0; ) {
             boolean flipped = false;
-            for (int j = 0; j<i; j++) {
-                if (a[j] > a[j+1]) {
+            for (int j = 0; j < i; j++) {
+                if (a[j] > a[j + 1]) {
                     int T = a[j];
-                    a[j] = a[j+1];
-                    a[j+1] = T;
+                    a[j] = a[j + 1];
+                    a[j + 1] = T;
                     flipped = true;
                 }
             }
@@ -16,18 +15,12 @@ public class Tester
             }
         }
     };
-
-    SortingStrategy quickSort = (int a[]) -> {
-        this.rQuickSort.sort(a, 0, a.length-1);
-    };
-
-    recursiveSortingStrategy rQuickSort = (int a[], int lo0, int hi0) -> {
+    recursiveSortingStrategy rQuickSort = (int[] a, int lo0, int hi0) -> {
         int lo = lo0;
         int hi = hi0;
         if (lo >= hi) {
             return;
-        }
-        else if( lo == hi - 1 ) {
+        } else if (lo == hi - 1) {
             /*
              *  sort a two element list by swapping if necessary
              */
@@ -47,7 +40,7 @@ public class Tester
         a[(lo + hi) / 2] = a[hi];
         a[hi] = pivot;
 
-        while( lo < hi ) {
+        while (lo < hi) {
             /*
              *  Search forward from a[lo] until an element is found that
              *  is greater than the pivot or lo >= hi
@@ -60,14 +53,14 @@ public class Tester
              *  Search backward from a[hi] until element is found that
              *  is less than the pivot, or lo >= hi
              */
-            while (pivot <= a[hi] && lo < hi ) {
+            while (pivot <= a[hi] && lo < hi) {
                 hi--;
             }
 
             /*
              *  Swap elements a[lo] and a[hi]
              */
-            if( lo < hi ) {
+            if (lo < hi) {
                 int T = a[lo];
                 a[lo] = a[hi];
                 a[hi] = T;
@@ -86,11 +79,13 @@ public class Tester
          *  equal to pivot, elements a[hi+1] to a[hi0] are greater than
          *  pivot.
          */
-        this.rQuickSort.sort(a, lo0, lo-1);
-        this.rQuickSort.sort(a, hi+1, hi0);
+        this.rQuickSort.sort(a, lo0, lo - 1);
+        this.rQuickSort.sort(a, hi + 1, hi0);
     };
-
-    recursiveSortingStrategy rMergeSort = (int a[], int lo0, int hi0) -> {
+    SortingStrategy quickSort = (int[] a) -> {
+        this.rQuickSort.sort(a, 0, a.length - 1);
+    };
+    recursiveSortingStrategy rMergeSort = (int[] a, int lo0, int hi0) -> {
         int lo = lo0;
         int hi = hi0;
 
@@ -122,7 +117,7 @@ public class Tester
                  */
                 int T = a[start_hi];
                 for (int k = start_hi - 1; k >= lo; k--) {
-                    a[k+1] = a[k];
+                    a[k + 1] = a[k];
                 }
                 a[lo] = T;
                 lo++;
@@ -132,28 +127,27 @@ public class Tester
         }
     };
 
-    SortingStrategy mergeSort = (int a[]) -> {
-        rMergeSort.sort(a, 0, a.length-1);
+    SortingStrategy mergeSort = (int[] a) -> {
+        rMergeSort.sort(a, 0, a.length - 1);
     };
 
-    public static void main( String[] args)
-    {
-        Tester tester = new Tester() ;
-        System.out.println( "List to be sorted with bubbleSort:");
-        DataSet dataset = new DataSet(tester.bubbleSort) ; // defaults to BubbleSort
+    public static void main(String[] args) {
+        Tester tester = new Tester();
+        System.out.println("List to be sorted with bubbleSort:");
+        DataSet dataset = new DataSet(tester.bubbleSort); // defaults to BubbleSort
         dataset.display();
         dataset.doSort();
         dataset.display();
         dataset.resetData();
         dataset.display();
-        System.out.println( "List to be sorted with quickSort:");
-        dataset.changeStrategy( tester.quickSort );
+        System.out.println("List to be sorted with quickSort:");
+        dataset.changeStrategy(tester.quickSort);
         dataset.doSort();
         dataset.display();
         dataset.resetData();
         dataset.display();
-        System.out.println( "List to be sorted with mergeSort:");
-        dataset.changeStrategy( tester.mergeSort );
+        System.out.println("List to be sorted with mergeSort:");
+        dataset.changeStrategy(tester.mergeSort);
         dataset.doSort();
         dataset.display();
     }
