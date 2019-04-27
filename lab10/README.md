@@ -1,10 +1,10 @@
 # CMPE 202 - LAB #10 - AspectJ & Feature IDE
 
-##Comparison  
+## Comparison  
 
 Compared to my solution in Lab 1, this solution looks more flexible and easy to maintain with a modularized code. Also, in my original solution, the Gumball machine time are decided when being constructed. In this solution, it is set up using the configration file, which is clear and easy to config.
 
-##Screenshot  
+## Screenshot  
 **Feature Model Configs and output:**
 
 1. Crank One Quarter Model + 25 cents cost
