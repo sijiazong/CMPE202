@@ -1,0 +1,11 @@
+/.DS_Store
+/GumballCost25.aj
+/GumballCost50.aj
+/GumballCrankModel.aj
+/GumballMachine.java
+/GumballOneQuarter.aj
+/GumballSlotModel.aj
+/GumballTwoQuarters.aj
+/IGumballMachineCrank.java
+/IGumballMachineSlot.java
+/Makefile

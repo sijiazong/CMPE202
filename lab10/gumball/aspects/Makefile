@@ -20,5 +20,3 @@ error:
 
 run:
 	java GumballMachine
-
-
